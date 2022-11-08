@@ -1,0 +1,15 @@
+a ARRAY<INTEGER>;
+s INTEGER;
+i INTEGER;
+i = 0ab;
+
+READ a;
+
+s = 0;
+
+EACH ( n INTEGER IN a )
+{
+    s = s + n;
+}
+
+RETURN s;

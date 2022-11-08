@@ -1,0 +1,14 @@
+a INTEGER;
+b INTEGER;
+value INTEGER;
+
+? ( a < b )
+{ val = a; }
+: { value = b; }
+
+REPEAT ( value > 0 )
+{
+    ? ( a % value == 0 AND b % value == 0 )
+    { return value; }
+    : { value = value - 1; }
+}

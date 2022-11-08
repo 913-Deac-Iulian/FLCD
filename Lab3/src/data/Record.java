@@ -1,4 +1,4 @@
-package com.example;
+package data;
 
 public class Record<A, B> {
     private A key;
@@ -27,6 +27,6 @@ public class Record<A, B> {
 
     @Override
     public String toString() {
-        return "(" + key + "," + value + ")";
+        return key + " -> " + value;
     }
 }
