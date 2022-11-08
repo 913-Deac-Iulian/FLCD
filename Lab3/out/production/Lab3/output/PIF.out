@@ -1,0 +1,67 @@
+id -> 6 -> 0
+INTEGER -> null
+; -> null
+id -> 7 -> 0
+BOOLEAN -> null
+; -> null
+id -> 8 -> 0
+INTEGER -> null
+; -> null
+READ -> null
+id -> 6 -> 0
+; -> null
+id -> 7 -> 0
+= -> null
+const -> 12 -> 0
+; -> null
+id -> 8 -> 0
+= -> null
+const -> 11 -> 0
+; -> null
+REPEAT -> null
+( -> null
+id -> 8 -> 0
+<= -> null
+id -> 6 -> 0
+/ -> null
+const -> 11 -> 0
+) -> null
+{ -> null
+? -> null
+( -> null
+id -> 6 -> 0
+% -> null
+id -> 8 -> 0
+== -> null
+const -> 9 -> 0
+) -> null
+{ -> null
+id -> 7 -> 0
+= -> null
+const -> 8 -> 0
+; -> null
+} -> null
+: -> null
+{ -> null
+id -> 8 -> 0
+= -> null
+id -> 8 -> 0
++ -> null
+const -> 10 -> 0
+; -> null
+} -> null
+} -> null
+? -> null
+( -> null
+id -> 7 -> 0
+== -> null
+const -> 12 -> 0
+) -> null
+{ -> null
+RETURN -> null
+const -> 8 -> 0
+; -> null
+} -> null
+RETURN -> null
+const -> 12 -> 0
+; -> null

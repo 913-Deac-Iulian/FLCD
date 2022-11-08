@@ -1,0 +1,21 @@
+a INTEGER;
+flag BOOLEAN;
+value INTEGER;
+
+READ a;
+
+flag = FALSE;
+value = 2;
+
+REPEAT ( value <= a / 2 )
+{
+    ? ( a % value == 0 )
+    {
+        flag = TRUE;
+    }
+    : { value = value  + 1; }
+}
+
+? ( flag == FALSE)
+{ RETURN TRUE; }
+RETURN FALSE;
