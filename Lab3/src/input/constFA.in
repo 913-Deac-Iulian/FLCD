@@ -1,7 +1,7 @@
-states: a,b,s
+states: a,b,s,c
 alphabet: +,-,0,1,2,3,4,5,6,7,8,9
 initial: a
-final: b
+final: b,c
 a,s,+
 a,s,-
 s,b,1
@@ -32,3 +32,4 @@ b,b,6
 b,b,7
 b,b,8
 b,b,9
+a,c,0
