@@ -1,0 +1,16 @@
+a INTEGER;
+b INTEGER;
+value INTEGER;
+READ a;
+READ b;
+
+? ( a < b )
+{ value = a; }
+: { value = b; }
+
+REPEAT ( value > 0 )
+{
+    ? ( a % value == 0 AND b % value == 0 )
+    { RETURN value; }
+    : { value = value - 1; }
+}
